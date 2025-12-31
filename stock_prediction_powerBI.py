@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # PATHS
 
-DATA_DIR = r"C:\Harsh\Github\data"
+DATA_DIR = r"C:data"
 
 PRICE_FILE = os.path.join(DATA_DIR, "stock_price_realtime.csv")
 PRED_FILE = os.path.join(DATA_DIR, "stock_predictions.csv")
@@ -148,3 +148,4 @@ metrics_df.to_csv(METRICS_FILE, index=False)
 print("\n Model Metrics")
 print(metrics_df)
 print(f"{METRICS_FILE}")
+
